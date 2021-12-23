@@ -1,4 +1,4 @@
-> ## ***Objects, Destructuring Assignment***
+> ## ***Getter, Setter, Property Descriptor***
 
 **During this homework:**
 
@@ -29,7 +29,8 @@
 
 2. The input is object, which keys are student's names and values are array of their scores. Find the student with the best average score.
 
-```getBestStudent({
+```javascript
+getBestStudent({
   John: [100, 90, 80],
   Bob: [100, 70, 80],
 });
