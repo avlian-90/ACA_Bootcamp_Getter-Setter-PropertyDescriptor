@@ -1,4 +1,4 @@
-/* - Write an object with field name.
+/*- Write an object with field name.
 
   const obj = {
     name: [], // ['name', length][]
@@ -10,7 +10,7 @@
 
   obj.name = 'Hovhannes, Sona';
 
-  console.log(obj.name) // [['Hovhannes', 9], ['Sona', 4]] */
+  console.log(obj.name) // [['Hovhannes', 9], ['Sona', 4]]*/
 
 const obj = {
     _name: [],
