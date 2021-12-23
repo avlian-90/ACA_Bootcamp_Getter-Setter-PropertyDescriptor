@@ -10,7 +10,7 @@
 
 **And done the required tasks, which are the following:**
 
-1. - Write an object with field name.
+1. Write an object with field name.
 
 ```javascript
   const obj = {
@@ -23,10 +23,11 @@
 
   obj.name = 'Hovhannes, Sona';
 
-  console.log(obj.name) // [['Hovhannes', 9], ['Sona', 4]]```
+  console.log(obj.name) // [['Hovhannes', 9], ['Sona', 4]] 
+```
 [**Solution**](./getBestStudent.js)
 
-2. - The input is object, which `keys` are student's names and `values` are `array` of their scores. Find the student with the best average score.
+2. The input is object, which keys are student's names and values are array of their scores. Find the student with the best average score.
 
 ```getBestStudent({
   John: [100, 90, 80],
@@ -35,5 +36,6 @@
 // OUTPUT => "John"
 
 // John's avg = 90
-// Bob's avg = 83.33```
+// Bob's avg = 83.33
+```
 [**Solution**](./getter-setter.js)
