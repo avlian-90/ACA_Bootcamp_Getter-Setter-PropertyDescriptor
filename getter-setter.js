@@ -1,6 +1,5 @@
 /* - Write an object with field name.
 
-```javascript
   const obj = {
     name: [], // ['name', length][]
     set name,
@@ -11,8 +10,7 @@
 
   obj.name = 'Hovhannes, Sona';
 
-  console.log(obj.name) // [['Hovhannes', 9], ['Sona', 4]]
-``` */
+  console.log(obj.name) // [['Hovhannes', 9], ['Sona', 4]] */
 
 const obj = {
     _name: [],
